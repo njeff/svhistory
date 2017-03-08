@@ -1,0 +1,70 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body{
+	font-family: Lato, sans-serif;
+	background: transparent;
+}
+
+blockquote{
+	border-left: 10px solid #801515;
+	padding: 1px 10px;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+}
+
+figure{
+	padding: 15px;
+}
+
+.header{
+	background-image: linear-gradient(rgba(30,30,30,.5), rgba(30,30,30,.5)), url("../images/silicon-valley-san-jose-california-san-francisco-bay-area-usa.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	font-weight: lighter;
+	max-width: 100%;
+	height: 100vh;
+	min-height: 500px;
+	text-align: right;
+	padding-bottom: 10px;
+	padding-right: 10vw;
+	padding-top: 60vh;
+	color: #FFFFFF;
+}
+
+div.header>h1{
+	font-size: 40pt;
+}
+
+.info{
+	margin: 1em auto;
+	max-width: 800px;
+	line-height: 2;
+	width: 100%;
+	font-size:18px;
+}
+
+.ui-accordion-header {
+	background-color: #CCC;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.ui-accordion-header:hover {
+	background-color: #BBB;
+}
+
+.ui-accordion-content {
+	width: 100%;
+	background-color: #EEEEEE;
+	font-size: 16px;
+	line-height: 1.5;
+	padding: 10px;
+}
+
+div.acc p:nth-child(odd){
+	font-weight: bold;
+}
