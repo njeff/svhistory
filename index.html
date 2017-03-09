@@ -23,7 +23,7 @@
 		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
 	</head>
 
-	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<body data-spy="scroll" data-target=".navbar" data-offset="0">
 		<div class="header" id="home">
 			<h1>The History of Silicon Valley</h1>
 			<h4>Your Story Project</h4>
@@ -262,7 +262,7 @@
 						event.preventDefault();
 						var hash = this.hash;
 						$('html, body').animate({
-							scrollTop: $(hash).offset().top - 70
+							scrollTop: $(hash).offset().top - 50
 						}, 800, function(){
 							window.location.hash = hash;
 					});
