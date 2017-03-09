@@ -45,7 +45,9 @@ div.header>h4{
 
 .info{
 	margin: 1em auto;
-	max-width: 800px;
+	padding-left: 25px;
+	padding-right: 25px;
+	max-width: 850px;
 	line-height: 2;
 	width: 100%;
 	font-size:18px;
@@ -71,4 +73,14 @@ div.header>h4{
 
 div.acc p:nth-child(odd){
 	font-weight: bold;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    height: 50px !important;
 }
