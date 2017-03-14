@@ -75,6 +75,18 @@ div.acc p:nth-child(odd){
 	font-weight: bold;
 }
 
+div.acc2 p:nth-child(-2n+19){
+	font-weight: bold;
+}
+
+div.acc2 p:nth-child(2n+22):nth-child(-2n+32){
+	font-weight: bold;
+}
+
+div.acc2 p:nth-child(2n+35){
+	font-weight: bold;
+}
+
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
