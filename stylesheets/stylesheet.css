@@ -1,5 +1,17 @@
-::-webkit-scrollbar { 
-    display: none; 
+::-webkit-scrollbar{
+	width: 10px;
+}
+
+::-webkit-scrollbar-track-piece{
+	background-color: #FFF;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: #CBCBCB;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background-color: #909090;
 }
 
 body{
@@ -87,12 +99,54 @@ div.acc2 p:nth-child(2n+35){
 	font-weight: bold;
 }
 
+.navbar{
+	z-index: 9999;
+}
+
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
+    z-index: 9999;
 }
 
 .navbar .navbar-collapse {
     text-align: center;
     height: 50px !important;
+}
+
+.bcg-parallax{
+	top 50;
+	padding: 80px 0;
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.sci{
+	background: linear-gradient(rgba(30,30,30,.5), rgba(30,30,30,.5)), url("../images/silicon-valley-san-jose-california-san-francisco-bay-area-usa.jpg") no-repeat;
+}
+
+.bcg{
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 150%;
+	top: 0;
+	z-index: 1;
+	opacity: 0.7;
+}
+
+.content-wrapper{
+	width: 90%;
+	margin: 0 auto;
+	max-width: 1140px;
+	position: relative;
+	z-index: 2;
+}
+
+.content-wrapper>h1{
+	font-weight: 300;
+	font-size: 35pt;
 }

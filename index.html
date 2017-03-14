@@ -7,7 +7,9 @@
 
 		<script	src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
 
 		<!-- Latest compiled and minified CSS -->
@@ -53,21 +55,30 @@
 					</ul>
 				</div>
 			</div>
-			
+		
 			<div class="info">
 				<hr>
 				<div>
 					<h2 id="origin">Name Origin</h2>
 					<figure style="float:right;">
 						<img style="width:200px;margin-right:10px;" src="images/image11.png" alt="News article.">
-	  					<figcaption class="figure-caption text-center">(Citation)</figcaption>
+	  					<figcaption class="figure-caption text-center">(Gromov)</figcaption>
 					</figure>
 					<p>
 						The term “Silicon Valley”, as it is now famously known worldwide, allegedly originated from the founder of Ion Equipment Corp, Ralph Vaerst. According to some sources, he was the one who suggested the name to Electronic News reporter Don Hoefler, who then popularized the term in a publication titled “Silicon Valley U.S.A.” on January 11, 1971 seen on the right. From there, the name stuck (Laws). Originally, it was a reference to the large number of silicon chip designers and makers in the area.  Today, it is perhaps more significantly known as the home base for hundreds of major tech companies. Thirty-nine firms of the Fortune 1000 have their headquarters here, many of which were born here as startups. “Silicon Valley” is also synonymous with risk-taking and innovation, as thousands of startups rise and grow within its borders at any given time with the help of one third of the nation’s venture capital investment. So influential were the scientific and industrial developments contributed by Silicon Valley to computing technologies throughout its history that many other places of similar respect are dubbed after it colloquially or officially. The technology sector in Southern California is known as “Silicon Beach” for example.
 					</p>
 				</div>
-				<hr>
-				<h2 id="internet">Internet</h2>
+			</div>
+			<div id="internet" class="bcg-parallax">
+				<div class="bcg sci"></div>
+				<div class="content-wrapper">
+					<h1>Internet</h1>
+					<p>The rise of the information era.</p>
+				</div>
+			</div>
+			<div class="info">
+				<!-- <hr>
+				<h2 id="internet">Internet</h2> -->
 				<div>
 					<p>
 						As with many other technologies invented in the last century, the internet and its workings found its root in Cold War-era military projects. Its primary precursor, the ARPANET and its network protocols, was created by the US government in the late 60’s as a computer communications network for military installations and academic centers that aided in research and development of it. As time passed, more and more connection nodes were established across the country, and starting in the 80’s, the private sector began to collaborate in its expansion. From the 90’s into the early 2000’s, the internet rapidly matured as more commercial, public, and private uses were found for the internet through its exponentially growing bandwidth, pool of users, and availability of personal devices. Today, the internet as a whole is a powerful medium through which entire economies flow and elections may be influenced.
@@ -80,8 +91,16 @@
 						The internet was originally developed solely for military use and was a network of connected computers at universities. In 1969, A computer at UCLA and another at Stanford were the first to communicate over the first version of a computer network, Advanced Research Projects Agency Network, or ARPANET (“Internet”). More computers were added slowly, and a network of several dozen computers across different continents quickly formed. New protocols were developed to handle the increasing load on the network, and email use becomes prevalent. Newer networks are created to extend ARPANET with new networks and in 1989 Tim-Berners Lee devised a system of hypertext to organize the internet. Now there are over a hundred thousand computers on the internet, and it is no longer being only used for scientific research. It began to experience a dramatic rise in popularity in the mid-1990’s and is now the backbone of all of the world’s communications.
 					</p>	
 				</div>
-				<hr>
-				<h2 id="science">Science</h2>
+			</div>
+			<div id="science" class="bcg-parallax">
+				<div class="bcg sci"></div>
+				<div class="content-wrapper">
+					<h1>Science</h1>
+					<p>Development of semiconductor devices.</p>
+				</div>
+			</div>
+			<div class="info">
+				<!--<h2 id="science">Science</h2>-->
 				<div>
 					<p>
 						Over the span of a few decades, computing hardware rapidly developed, decreasing the size of computers and increasing their speed exponentially. The development of the transistor in the mid 1900s would pave the way for all future semiconductor devices, and created a battleground in which companies strived to create the best semiconductor devices. Eight engineers, now known as the Traitorous Eight, left Shockley Laboratories after disagreeing with Shockley’s practices and founded Fairchild Semiconductor, which would lead the way in silicon transistor technologies and the invention of the modern integrated circuit. When looking for an investor, they wrote to the Hayden Stone and Company investment firm explaining their background and plans:
@@ -106,8 +125,17 @@
 						More companies such as Intel began to settle in Silicon Valley, creating a hub of innovation and competition to build. In parallel, advances in programming languages and techniques developed to complement the advancing hardware.
 					</p>
 				</div>
-				<hr>
-				<h2 id="economics">Economics</h2>
+			</div>
+			<div id="economics" class="bcg-parallax">
+				<div class="bcg sci"></div>
+				<div class="content-wrapper">
+					<h1>Economics</h1>
+					<p>Startup central.</p>
+				</div>
+			</div>
+			<div class="info">
+				<!-- <hr> -->
+				<!-- <h2 id="economics">Economics</h2> -->
 				<div>
 					<p>
 						In the never-ending quest for new technologies, the Silicon Valley has its booms when new ideas are hot and its busts when innovation stagnates. Job creation, while it has had its up and downs in the last couple of decades, has in general seen a massive increase from the mid 1900s to today, and recently growth has been strong. Many tech startups are trying to disrupt the industry with a some idea, novel or not, and companies in the valley attract the most venture capital money by far compared to companies in any other part of the US (Gromov). Dozens of companies in the Silicon Valley and Bay Area regions today are valued over a billion dollars, if not far more. Some of the highest traded and valued companies on the stock market are tech companies like Apple, Google, Nvidia, and AMD. 
@@ -128,8 +156,17 @@
 	  					<figcaption class="figure-caption text-center">(Gromov)</figcaption>
 					</figure>
 				</div>
-				<hr>
-				<h2 id="compg">Computer Graphics</h2>
+			</div>
+			<div id="compg" class="bcg-parallax">
+				<div class="bcg sci"></div>
+				<div class="content-wrapper">
+					<h1>Computer Graphics</h1>
+					<p>CGI.</p>
+				</div>
+			</div>
+			<div class="info">
+				<!-- <hr> -->
+				<!-- <h2 id="compg">Computer Graphics</h2> -->
 				<div>
 					<p>
 						Computer graphics are visuals, such as pictures or movies, created by computers. Even as early as the 1950s, computer graphics capabilities began to rise despite the limited power of machines of the time. For example, in 1959, the TX-2 at MIT was developed at MIT, featuring a light-pen that could draw vectors on a screen.  One of the first computer games, Spacewar!, was developed on a PDP-1 in 1961. 3D graphics began to emerge in the 1980’s, and by the 1990s, fidelity had improved to the point where full-length cinema animations were rendered using the aid of computer generation such as Toy Story in 1995, the first film to be completely computer-generated.  Today, photorealism does not appear to be such a far-off goal, and new companies such as Oculus have risen to bring ourselves into the virtual reality of computer graphics.
@@ -146,15 +183,33 @@
 	  					<figcaption style="font-size: 14px" class="figure-caption text-center">(From left to right):  Ivan Sutherland using his light-pen, Spacewar!, Pac-man, Toy-Story, The Witcher 3 (2015)</figcaption>
 					</figure>
 				</div>
-				<hr>
-				<h2 id="culture">Cultural Diffusion</h2>
+			</div>
+			<div id="culture" class="bcg-parallax">
+				<div class="bcg sci"></div>
+				<div class="content-wrapper">
+					<h1>Cultural Diffusion</h1>
+					<p>Immigration.</p>
+				</div>
+			</div>
+			<div class="info">
+				<!-- <hr> -->
+				<!--<h2 id="culture">Cultural Diffusion</h2>-->
 				<div>
 					<p>
 						In the mid-twentieth century, there was a massive influx of people from across the nation, as well as overseas, seeking to take advantage of the new opportunities that had arisen in Silicon Valley. Although that name was initially used to reference the Santa Clara Valley and its neighboring counties, the rapid population growth and creation of new tech industries inevitably led to an expansion of the term to include the majority of the South San Francisco Bay Area (Gromov).As news of technological success and revolutionary ideas pervaded the nation, countless people migrated over to the West Coast, hoping for a piece of the success with the newly created tech industries. In addition to these migrants, the immigrant presence cannot be ignored when considering the successes of Silicon Valley. Hundreds of thousands of Asian and Central American people flocked to the area, taking up jobs in both manufacturing and development, rapidly making Silicon Valley one of the most diverse areas in the United States (Matthews, p. 147 - 182).
 					</p>
 				</div>
-				<hr>
-				<h2 id="women">Role of Women in Technology</h2>
+			</div>
+			<div id="women" class="bcg-parallax">
+				<div class="bcg sci"></div>
+				<div class="content-wrapper">
+					<h1>Women in Technology</h1>
+					<p>Role of Women.</p>
+				</div>
+			</div>
+			<div class="info">
+				<!-- <hr>
+				<h2 id="women">Role of Women in Technology</h2> -->
 				<div>
 					<p>
 						Silicon Valley is often thought of as a male-dominated realm, but women have always played a crucial part in numerous developments over its time. Once an Apple employee, Donna Dubinsky eventually rose to become the CEO of Palm. Under her guidance, the Palm Pilot was released, and it became one of the definitive PDA devices of its generation. Sheryl Sandberg was the vice president of global online sales for Google, and is not prominently the COO of Facebook (Hempel).
@@ -199,8 +254,17 @@
 						</div>
 					</div>
 				</div>
-				<hr>
-				<h2 id="loyalty">Life and Loyalty in Silicon Valley</h2>
+			</div>
+			<div id="loyalty" class="bcg-parallax">
+				<div class="bcg sci"></div>
+				<div class="content-wrapper">
+					<h1>Life and Loyalty in Silicon Valley</h1>
+					<p>Competition.</p>
+				</div>
+			</div>
+			<div class="info">
+				<!-- <hr>
+				<h2 id="loyalty">Life and Loyalty in Silicon Valley</h2> -->
 				<div>
 					<p>
 						In such a concentrated pool of unquestionable talent, there will always be those who seek to improve upon what they have previously done, whether as a founder or a simple employee. From this, an interesting dynamic evolved--one in which those involved in an innovation chooses either to maintain his or her loyalty to the company and help expand its reach further, or to simply split off and create their own venture elsewhere. There were countless examples of this occurrence throughout the “boom” period of Silicon Valley, the most famous and important of which involving the so-called “Traitorous Eight”. A classic and well-known example of the potential success to be had from going out on their own, eight employees of Shockley Semiconductor left together to found Fairchild Semiconductor, two of whom then branched off to found Intel. Indeed, Fairchild and Intel rapidly turned out to be two of the most prominent and influential ventures of their time  (Gromov).
@@ -325,13 +389,23 @@
 
 				// Scene Handler
 				var scene1 = new ScrollMagic.Scene({
-				  triggerElement: "#pinned-trigger1", // point of execution
-				  duration: 0, // pin element for the window height - 1
-				  triggerHook: 0, // don't trigger until #pinned-trigger1 hits the top of the viewport
-				  reverse: true // allows the effect to trigger when scrolled in the reverse direction
+					triggerElement: "#pinned-trigger1", // point of execution
+					duration: 0, // pin element for the window height - 1
+					triggerHook: 0, // don't trigger until #pinned-trigger1 hits the top of the viewport
+					reverse: true // allows the effect to trigger when scrolled in the reverse direction
 				})
 				.setPin("#pinned-element1") // the element we want to pin
 				.addTo(controller);
+				$(".bcg-parallax").each(function(i, obj){
+					var slideParallaxScene = new ScrollMagic.Scene({
+						triggerElement: obj,
+						triggerHook: i+1,
+						duration: "100%"
+					})
+					.setTween(TweenMax.from(".bcg", 1, {y: "-40%", ease:Power0.easeNone}))
+					.addTo(controller);
+				})
+				
 			} );
 
 			// Add scrollspy to <body>
